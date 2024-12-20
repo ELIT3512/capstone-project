@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  color: #fa0000;
+  background-color:rgba(0, 0, 0, 0.869);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.claim-item {
+  border: 2px solid #ff0000; 
+  padding: 15px;         
+  margin-bottom: 20px;  
+  border-radius: 8px;   
+  background-color: #000000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.Profile img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  border: 5px solid #ff0000; 
+}
+.button-container {
+ 
+  width: 100%; 
+  bottom: 20px; 
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; 
+  box-sizing: border-box;
+}
+.delete-button-container {
+
+  bottom: 20px; 
+  right: 20px; 
+}
+.logout-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: rgb(237, 0, 0); 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+button {
+  background-color: rgb(109, 14, 14); 
+  color: white;         
+  border: none;           
+  padding: 10px 20px;     
+  border-radius: 5px;     
+  cursor: pointer;        
+}
+
+button:hover {
+  background-color: rgb(16, 0, 139); 
+}
+.nav-container {
+  border: 2px solid black; 
+  padding: 15px;        
+  border-radius: 5px;     
+  background-color: #ff0000; 
+}
+.nav-container ul {
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;         
+  display: flex;         
+  gap: 20px;             
+}
+
+.nav-container li {
+  display: inline-block; 
+}
+
+a {
+  color: rgb(255, 0, 0); 
+  text-decoration: none; 
+}
+
+
+a:hover {
+  color: darkblue; 
+  text-decoration: underline; 
+}
+
+
+a:visited {
+  color: rgb(255, 255, 255); 
+}
+
+
+a:active {
+  color: red; 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
